@@ -1,8 +1,46 @@
+:root {
+  --link-font: "Montserrat", sans-serif;
+  --secondary-color: #272142;
+}
+
 body {
-  font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+
 h1 {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
+  font-size: 72px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-image: url("/images/tems.jpg");
+  background-size: cover;
+  background-size: contain;
+  color: white;
+}
+
+.btn-domain {
+  font-family: var(--link-font);
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--secondary-color);
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-domain:hover {
+  color: white;
+  background-color: var(--secondary-color);
 }
