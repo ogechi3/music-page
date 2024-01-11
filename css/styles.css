@@ -39,6 +39,9 @@ nav a:hover {
   color: purple;
   transition: all 200ms ease in ease-in-out;
 }
+.active {
+  color: blue;
+}
 .hero {
   font-family: "Roboto", sans-serif;
   background-color: #000;
@@ -66,7 +69,7 @@ nav a:hover {
   background-color: var(--secondary-color);
 }
 .content-container {
-  margin: 30px 0;
+  margin: 30px;
 }
 .ice-t {
   background-color: rgb(174, 205, 188);
@@ -74,7 +77,7 @@ nav a:hover {
   border-radius: 8px;
 }
 .free-mind {
-  background-color: rgb(92, 65, 65);
+  background-color: rgb(138, 131, 131);
   padding: 15px 20px 25px;
   border-radius: 8px;
 }
@@ -88,6 +91,17 @@ nav a:hover {
   height: 80%;
 }
 
+
+footer a {
+  padding: 15px;
+  background-color: #272142;
+  border-radius: 30px;
+  color: white;
+}
+footer a:hover {
+  background-color: rgb(146, 126, 166);
+  transition: all 200ms ease-in-out;
+}
 
 @media (max-width: 900px) {
   #audio {
